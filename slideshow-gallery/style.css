@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {}
+
+main {
+    max-width: 600px;
+    margin: 80px auto;
+}
+
+main .content {
+    position: relative;
+}
+
+main .content .mySlides {
+    position: relative;
+    display: none;
+}
+
+main .content .mySlides .slideNumber {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+main .content .mySlides img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+main a {
+    position: absolute;
+    top: 50%;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 12px 16px;
+    transition: 0.3s;
+}
+
+main a:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+main a:active {
+
+    transform: scale(120%);
+    box-shadow: 0px 0px 3px 4px rgba(255, 255, 255, 0.5);
+    text-shadow: 3px 0px 10px rgba(76, 117, 128, 0.5);
+}
+
+.prev {
+    left: 0px;
+}
+
+.next {
+    right: 0px;
+}
+
+main .caption {
+    padding: 15px 0px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.932);
+}
+
+main .all-slides {
+    display: flex;
+    height: 60px;
+}
+
+main .all-slides img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+main .all-slides img:hover {
+    opacity: 1;
+}
+
+.selected-demo{
+    opacity: 1 !important;
+}
+

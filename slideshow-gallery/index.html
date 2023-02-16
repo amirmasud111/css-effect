@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main>
+        <div class="content">
+            <div class="mySlides">
+                <span class="slideNumber">1 / 6</span>
+                <img src="./img/1.jpg">
+            </div>
+            <div class="mySlides">
+                <span class="slideNumber">2 / 6</span>
+                <img src="./img/2.jpg">
+            </div>
+            <div class="mySlides">
+                <span class="slideNumber">3 / 6</span>
+                <img src="./img/3.jpg">
+            </div>
+            <div class="mySlides">
+                <span class="slideNumber">4 / 6</span>
+                <img src="./img/4.jpg">
+            </div>
+            <div class="mySlides">
+                <span class="slideNumber">5 / 6</span>
+                <img src="./img/5.jpg">
+            </div>
+            <div class="mySlides">
+                <span class="slideNumber">6 / 6</span>
+                <img src="./img/6.jpg">
+            </div>
+            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+        </div>
+        <div class="caption"> </div>
+        </div>
+        <div class="all-slides">
+            <div class="image-demo-container" onclick="currentSlide(1)">
+                <img src="./img/1.jpg" alt="One" class="demo">
+            </div>
+            <div class="image-demo-container" onclick="currentSlide(2)">
+                <img src="./img/2.jpg" alt="Two" class="demo">
+            </div>
+            <div class="image-demo-container" onclick="currentSlide(3)">
+                <img src="./img/3.jpg" alt="Three" class="demo">
+            </div>
+            <div class="image-demo-container" onclick="currentSlide(4)">
+                <img src="./img/4.jpg" alt="Four" class="demo">
+            </div>
+            <div class="image-demo-container" onclick="currentSlide(5)">
+                <img src="./img/5.jpg" alt="Five" class="demo">
+            </div>
+            <div class="image-demo-container" onclick="currentSlide(6)">
+                <img src="./img/6.jpg" alt="Six" class="demo">
+            </div>
+
+
+
+
+
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
